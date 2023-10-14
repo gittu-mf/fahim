@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+#name {
+    color: gray;
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 10%;
+    position: relative;
+    right: 130px;
+}
+
+#job-title {
+    font-size: 25px; 
+    margin-top: 15%;
+    position: relative;
+    right: 275px;
+    bottom: 110px;
+
+}
+
+ul {
+    list-style: -webkit-gradient() ;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    right: 360px;
+    top: 230px;
+    margin: 10px;
+
+}
+.top img{
+    position: relative;
+    left: 100px;
+    text-align: center;
+    max-width: 40%;
+    padding: 20px; 
+}
+
+.content {
+    display: flex;
+  
+    padding: 20px;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-me {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    max-width: 50px;
+    height: auto;
+}
+
+.service h3 {
+    font-size: 18px;
+}
+
+.service p {
+    font-size: 14px;
+}
