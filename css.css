@@ -63,10 +63,12 @@ img {
 .about-me {
     flex: 1;
     padding: 20px;
+    
 }
 
 h2 {
     font-size: 24px;
+    color: rgb(5, 136, 136);
 }
 
 .footer {
